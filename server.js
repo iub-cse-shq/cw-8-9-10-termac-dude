@@ -49,7 +49,7 @@ app.post('/article/new', function (request, response) {
        error: 'Title is missing-> '+data
      })
    return response.status(200).json({
-     message: 'Article created successfully -> '+data
+     message: 'Article created successfully -> '+ data
    })
  })
 })
